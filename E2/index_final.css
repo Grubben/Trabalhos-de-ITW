@@ -1,0 +1,95 @@
+/*
+margin: 10px auto 0 auto;
+
+body {
+    background-color: #EEE;
+}
+*/
+body {
+    background-image: url("Assets/pokemon/legendary.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#opacity {
+    opacity: 0.95;
+}
+
+#header {
+    color: white;
+    top: 2px;
+    right: 5px;
+    width: 100%;
+    position: fixed;
+    font-size: 30px;
+}
+
+#header ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+#header ul li {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    margin: 0 0 0 auto
+}
+
+#container {
+    background-color: salmon;
+    margin: 0 auto 0 auto;
+    width: 70%;
+    text-align: center;
+    clear: both;
+}
+
+#welcome {
+    width: 90%;
+    margin: inherit;
+    margin-top: 100px;
+}
+
+#game_page {
+    font-style: italic;
+    font-size: 58px;
+    width: 90%;
+    margin: inherit;
+    padding: 20px;
+}
+
+#intro_video {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 3;
+    margin: auto auto auto auto;
+    width: 80%;
+    height: 90%;
+    text-align: center;
+}
+
+#text {
+    width: inherit;
+    margin: inherit;
+}
+
+#pokemons {
+
+
+}
+
+
+#blog {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 3;
+    width: 80%;
+    margin: inherit;
+}
+
+#blog ol {
+    text-align: left;
+}
+
+#footer {
+    padding: 10px;
+    text-align: center;
+    margin-top: inherit;
+}

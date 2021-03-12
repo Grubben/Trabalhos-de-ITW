@@ -1,0 +1,30 @@
+body {
+    background-image: url(Assets/pokemon/drawing.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    opacity: 0.95;
+    background-color: blanchedalmond;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    height: auto;
+    font-size: 25px;
+    position: fixed;
+}
+
+#header p {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+}
+
+#container {
+    opacity: 0.95;
+    background-color: coral;
+    width: 70%;
+    margin: 100px auto 30px auto;
+    text-align: center;
+    padding: 20px;
+}
